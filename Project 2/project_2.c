@@ -58,23 +58,6 @@ Task newZealand;
 
 time_t start_simulation;
 
-
-// newzealand type 4 ve 5 booleanlarının isimlerini değiştir.
-// newzelaand için queue.c değişti düzelt
-//while loopların içi? bence şey yap current time al while o == ilk time + simulationTime
-//type 4 ve type 5 aynı anda ne demek? mutex olmasın mı?
-//aynı anda iki kişi farklı işler yapabilir mi? diğeri sleep halindeyken öbürü çalışabilir mi? mutex kaldırmalı mıyım o zmana sleepten önce??
-// pthread sleeper function sorr
-//condition varibale kullanıcaz mu
-//queueu yı değiştirdim okey mi?
-//en sona ret. boole= false ekle ve queueu.c ekle
-// wile loop içi
-//random
-//log ekle
-//if else öncelik
-//emergency queue ya girer mi?
-// son soru sor??
-//örnek değerler doğru mu pdfte?
 int t1;//for debugging hangi type'ın kaç kere geldiğini output olarak en son verecek
 int t2;//for debugging
 int t3;//for debugging
